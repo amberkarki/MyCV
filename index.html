@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+        
+        <title>My Website: Bootstrap exercise 3</title>
+    </head>
+<body style="background-color:#D1D0CF">
+    
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light jumbotron">
+  <a class="navbar-brand" href=""><i class="fas fa-at"></i> My Website - Amber Karki</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><i class = " fas fa-home"></i> Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://www.haaga-helia.fi" target="_blank"><i class = "fas fa-link"></i> Favourite link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         <i class="fas fa-info-circle"></i> More About Me
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="CV.pdf" target="_blank"><i class = "fas fa-book-open"></i> My CV</a>
+          <a class="dropdown-item" href="https://github.com/amberkarki" target="_blank"><i class="fab fa-github"></i> My GitHub Page</a>
+          
+            <a class="dropdown-item" href="https://linkedin.com/in/amberkarki" target="_blank"><i class="fab fa-linkedin-in"></i> Linkedin</a>
+        </div>
+      </li>
+      
+    </ul>
+    
+  </div>
+</nav>
+    <style>
+        .btn a{
+            text-decoration: none;
+            color:white;
+        }
+        a:hover{
+            color:darkblue;
+            text-decoration: none;
+            
+        }
+        article{
+            background-color:F0EDEB;
+        }
+    </style>
+    <section class="row">
+        <article class="col-md-3">
+            <h3>My Projects</h3>
+            <p>I have done many school projects and hubby projects with different technologies like: </p>
+            <ul>
+                <li>React</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>NodeJS</li>
+                <li>Express</li>
+                <li>RDBMS</li>
+                <li>DevOps (Docker & Jenkins) </li>
+            
+            </ul>
+        </article>
+        <article class="col-md-6">
+            <h3>Myself</h3>
+          <p>Currently, I am final semester Software Development student at Haaga-Helia UAS. I am always interesed in doing programming courses and hubby projects. I have done many project works within this course that has given me lot of knowledge to leap further in the information technology</p>
+        </article>
+        <article class="col-md-3">
+            <h3>My Hobbies</h3>
+          <ul>
+              <li>Reading</li>
+              <li>Travelling</li>
+              <li>hill-hiking</li>
+              <li>Coading</li>
+            
+            </ul>
+        </article>
+
+    </section>
+    <footer class="page-footer font-small special-color-dark pt-4">
+
+   
+    <div class="container">
+
+      
+      <div class="row">
+
+      </div>
+      
+
+    </div>
+   
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">&copy;2020 AmberKarki
+      <a href="https://github.com/amberkarki" target="_blank"> GitHub</a>
+         <a href="https://linkedin.com/in/amberkarki" target="_blank"> Linkedin</a>
+    </div>
+
+  </footer>
+  
+    
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--for toggling-->
+    <script>
+    $(document).ready(function(){
+        $(".show-more").hide();
+       $(".click-show").click(function(){
+            $(".show-more").toggle(1000);
+           $(this).hide();
+       });
+        
+    });
+        
+</script>
+</body>
+</html>
